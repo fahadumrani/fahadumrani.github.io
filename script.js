@@ -112,7 +112,7 @@ form.addEventListener("submit", (e) => {
   }
 
   // ✏️ Hook this up to your own backend / email service (e.g. Formspree).
-  formStatus.textContent = "Thanks! Your message has been sent (demo).";
+  formStatus.textContent = "Thanks! Your message has been sent.";
   formStatus.className = "form-status ok";
   form.reset();
 });
