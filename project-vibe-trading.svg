@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vibe-Trading AI agent console preview">
+  <defs>
+    <linearGradient id="vbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eaf0f8"/>
+      <stop offset="1" stop-color="#d5e1ef"/>
+    </linearGradient>
+    <linearGradient id="varea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f9cf9" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#4f9cf9" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#vbg)"/>
+  <rect x="60" y="45" width="680" height="360" rx="16" fill="#0f1826"/>
+  <rect x="60" y="45" width="680" height="38" rx="16" fill="#182338"/>
+  <rect x="60" y="66" width="680" height="17" fill="#182338"/>
+  <circle cx="86" cy="64" r="6" fill="#ff5f57"/>
+  <circle cx="106" cy="64" r="6" fill="#febc2e"/>
+  <circle cx="126" cy="64" r="6" fill="#28c840"/>
+  <text x="400" y="69" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#8fa0b8">Vibe-Trading — AI Agent Console</text>
+  <rect x="60" y="83" width="150" height="322" fill="#0c1420"/>
+  <rect x="80" y="105" width="14" height="14" rx="4" fill="#205295"/>
+  <rect x="102" y="108" width="88" height="9" rx="4" fill="#22304a"/>
+  <rect x="80" y="137" width="14" height="14" rx="4" fill="#22304a"/>
+  <rect x="102" y="140" width="72" height="9" rx="4" fill="#1a2740"/>
+  <rect x="80" y="169" width="14" height="14" rx="4" fill="#22304a"/>
+  <rect x="102" y="172" width="96" height="9" rx="4" fill="#1a2740"/>
+  <rect x="80" y="201" width="14" height="14" rx="4" fill="#22304a"/>
+  <rect x="102" y="204" width="64" height="9" rx="4" fill="#1a2740"/>
+  <circle cx="88" cy="368" r="12" fill="#205295"/>
+  <rect x="108" y="360" width="70" height="8" rx="4" fill="#22304a"/>
+  <rect x="108" y="373" width="46" height="7" rx="3" fill="#1a2740"/>
+  <g stroke="#ffffff" stroke-opacity="0.06">
+    <line x1="240" y1="130" x2="710" y2="130"/>
+    <line x1="240" y1="180" x2="710" y2="180"/>
+    <line x1="240" y1="230" x2="710" y2="230"/>
+    <line x1="240" y1="280" x2="710" y2="280"/>
+    <line x1="240" y1="330" x2="710" y2="330"/>
+  </g>
+  <g stroke-linecap="round">
+    <line x1="260" y1="285" x2="260" y2="355" stroke="#34d399"/>
+    <rect x="253" y="300" width="14" height="40" rx="2" fill="#34d399"/>
+    <line x1="295" y1="265" x2="295" y2="330" stroke="#f87171"/>
+    <rect x="288" y="280" width="14" height="35" rx="2" fill="#f87171"/>
+    <line x1="330" y1="275" x2="330" y2="365" stroke="#34d399"/>
+    <rect x="323" y="290" width="14" height="60" rx="2" fill="#34d399"/>
+    <line x1="365" y1="235" x2="365" y2="315" stroke="#34d399"/>
+    <rect x="358" y="250" width="14" height="50" rx="2" fill="#34d399"/>
+    <line x1="400" y1="215" x2="400" y2="285" stroke="#f87171"/>
+    <rect x="393" y="230" width="14" height="40" rx="2" fill="#f87171"/>
+    <line x1="435" y1="225" x2="435" y2="315" stroke="#34d399"/>
+    <rect x="428" y="240" width="14" height="60" rx="2" fill="#34d399"/>
+    <line x1="470" y1="190" x2="470" y2="265" stroke="#f87171"/>
+    <rect x="463" y="200" width="14" height="50" rx="2" fill="#f87171"/>
+    <line x1="505" y1="195" x2="505" y2="275" stroke="#34d399"/>
+    <rect x="498" y="210" width="14" height="50" rx="2" fill="#34d399"/>
+    <line x1="540" y1="155" x2="540" y2="230" stroke="#34d399"/>
+    <rect x="533" y="170" width="14" height="45" rx="2" fill="#34d399"/>
+    <line x1="575" y1="165" x2="575" y2="245" stroke="#f87171"/>
+    <rect x="568" y="180" width="14" height="50" rx="2" fill="#f87171"/>
+    <line x1="610" y1="125" x2="610" y2="200" stroke="#34d399"/>
+    <rect x="603" y="140" width="14" height="45" rx="2" fill="#34d399"/>
+    <line x1="645" y1="135" x2="645" y2="220" stroke="#f87171"/>
+    <rect x="638" y="150" width="14" height="55" rx="2" fill="#f87171"/>
+    <line x1="680" y1="100" x2="680" y2="175" stroke="#34d399"/>
+    <rect x="673" y="115" width="14" height="45" rx="2" fill="#34d399"/>
+  </g>
+  <path d="M240 335 C 290 315, 320 325, 360 295 S 430 245, 470 255 S 550 215, 590 220 S 660 160, 700 145 L 700 380 L 240 380 Z" fill="url(#varea)"/>
+  <path d="M240 335 C 290 315, 320 325, 360 295 S 430 245, 470 255 S 550 215, 590 220 S 660 160, 700 145" fill="none" stroke="#4f9cf9" stroke-width="3" stroke-linecap="round"/>
+  <rect x="253" y="98" width="118" height="26" rx="13" fill="#182338"/>
+  <circle cx="268" cy="111" r="4" fill="#f7931a"/>
+  <text x="279" y="115" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#dbe6f5">BTC/USDT</text>
+  <rect x="383" y="98" width="152" height="26" rx="13" fill="#123322" stroke="#34d399" stroke-opacity="0.5"/>
+  <circle cx="399" cy="111" r="4" fill="#34d399"/>
+  <text x="410" y="115" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#34d399">AI AGENT · LONG</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="WeatherMaster Android app preview">
+  <defs>
+    <linearGradient id="wbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e2ecf7"/>
+      <stop offset="1" stop-color="#c7daee"/>
+    </linearGradient>
+    <linearGradient id="wsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c3a5e"/>
+      <stop offset="1" stop-color="#2c5787"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#wbg)"/>
+  <circle cx="655" cy="95" r="72" fill="#ffd166" opacity="0.25"/>
+  <circle cx="655" cy="95" r="34" fill="#ffd166" opacity="0.9"/>
+  <g fill="#ffffff" opacity="0.8">
+    <ellipse cx="185" cy="125" rx="55" ry="20"/>
+    <ellipse cx="215" cy="110" rx="38" ry="20"/>
+  </g>
+  <ellipse cx="620" cy="345" rx="70" ry="18" fill="#ffffff" opacity="0.5"/>
+  <rect x="326" y="43" width="160" height="380" rx="30" fill="#0b1420" opacity="0.35"/>
+  <rect x="320" y="35" width="160" height="380" rx="30" fill="#0f1826"/>
+  <rect x="328" y="45" width="144" height="360" rx="22" fill="url(#wsky)"/>
+  <rect x="366" y="52" width="44" height="5" rx="2.5" fill="#ffffff" opacity="0.35"/>
+  <text x="400" y="100" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#bcd3ea">WeatherMaster</text>
+  <circle cx="360" cy="140" r="15" fill="#ffd166"/>
+  <ellipse cx="402" cy="142" rx="26" ry="13" fill="#ffffff"/>
+  <ellipse cx="422" cy="134" rx="16" ry="11" fill="#ffffff"/>
+  <text x="400" y="188" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">24°</text>
+  <text x="400" y="212" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#bcd3ea">Partly Cloudy</text>
+  <g>
+    <rect x="340" y="242" width="26" height="56" rx="8" fill="#205295"/>
+    <text x="353" y="276" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">24°</text>
+    <text x="353" y="291" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" fill="#bcd3ea">Mon</text>
+    <rect x="372" y="244" width="26" height="54" rx="8" fill="#ffffff" fill-opacity="0.10" stroke="#ffffff" stroke-opacity="0.15"/>
+    <circle cx="385" cy="272" r="6" fill="#ffd166"/>
+    <text x="385" y="292" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#bcd3ea">Tue</text>
+    <rect x="404" y="244" width="26" height="54" rx="8" fill="#ffffff" fill-opacity="0.10" stroke="#ffffff" stroke-opacity="0.15"/>
+    <circle cx="421" cy="272" r="6" fill="#dbe7f5"/>
+    <text x="417" y="292" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#bcd3ea">Wed</text>
+    <rect x="436" y="244" width="26" height="54" rx="8" fill="#ffffff" fill-opacity="0.10" stroke="#ffffff" stroke-opacity="0.15"/>
+    <circle cx="453" cy="272" r="6" fill="#ffd166"/>
+    <text x="449" y="292" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#bcd3ea">Thu</text>
+  </g>
+  <rect x="340" y="316" width="60" height="24" rx="12" fill="#ffffff" fill-opacity="0.12"/>
+  <text x="369" y="341" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#dbe7f5">62%</text>
+  <rect x="406" y="326" width="58" height="22" rx="11" fill="#ffffff" fill-opacity="0.12"/>
+  <text x="431" y="340" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#dbe7f5">12 km/h</text>
+  <circle cx="382" cy="372" r="4" fill="#ffffff" fill-opacity="0.4"/>
+  <circle cx="400" cy="372" r="4" fill="#ffffff"/>
+  <circle cx="418" cy="372" r="4" fill="#ffffff" fill-opacity="0.4"/>
+  <rect x="380" y="394" width="44" height="4" rx="2" fill="#ffffff" fill-opacity="0.4"/>
+  <rect x="110" y="170" width="160" height="92" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="142" cy="188" r="7" fill="#34d399"/>
+  <text x="150" y="191" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1c2430">Kotlin · Android</text>
+  <rect x="136" y="206" width="110" height="9" rx="4" fill="#dbe4ee"/>
+  <rect x="136" y="220" width="80" height="8" rx="4" fill="#e6ecf3"/>
+  <rect x="520" y="240" width="160" height="92" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="536" y="268" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1c2430">Multi-source data</text>
+  <rect x="536" y="282" width="110" height="8" rx="4" fill="#dbe4ee"/>
+  <rect x="536" y="296" width="64" height="8" rx="4" fill="#e6ecf3"/>
+</svg>
