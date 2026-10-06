@@ -1,6 +1,6 @@
 // ===== PORTFOLIO SCRIPT =====
 // Mobile menu, navbar state, active link, scroll reveal,
-// back-to-top, contact form validation, dynamic year.
+// back-to-top and dynamic year.
 
 // ----- 1. Mobile menu -----
 const hamburger = document.getElementById("hamburger");
@@ -32,7 +32,7 @@ document.addEventListener("keydown", (e) => {
 
 // ----- 3. Scroll-reveal animations -----
 const revealTargets = document.querySelectorAll(
-  ".section-title, .section-desc, .about-text, .about-facts, .about-photo, .skill-card, .project-card, .timeline-item, .contact-text, .contact-list, .contact-form"
+  ".section-title, .section-desc, .about-text, .about-facts, .about-photo, .skill-card, .project-card, .timeline-item, .contact-text, .contact-list, .contributor-card"
 );
 
 revealTargets.forEach((el) => el.classList.add("reveal"));
@@ -88,39 +88,5 @@ backToTop.addEventListener("click", () =>
   window.scrollTo({ top: 0, behavior: "smooth" })
 );
 
-// ----- 5. Contact form (front-end validation demo) -----
-const form = document.getElementById("contact-form");
-const formStatus = document.getElementById("form-status");
-
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-
-  const fields = ["name", "email", "message"].map((id) => document.getElementById(id));
-  let valid = true;
-
-  fields.forEach((field) => {
-    const empty = !field.value.trim();
-    const badEmail = field.type === "email" && !/^\S+@\S+\.\S+$/.test(field.value);
-    field.classList.toggle("invalid", empty || badEmail);
-    if (empty || badEmail) valid = false;
-  });
-
-  if (!valid) {
-    formStatus.textContent = "Please fill in all fields with a valid email.";
-    formStatus.className = "form-status err";
-    return;
-  }
-
-  // ✏️ Hook this up to your own backend / email service (e.g. Formspree).
-  formStatus.textContent = "Thanks! Your message has been sent.";
-  formStatus.className = "form-status ok";
-  form.reset();
-});
-
-// remove error styling while typing
-form.querySelectorAll("input, textarea").forEach((el) =>
-  el.addEventListener("input", () => el.classList.remove("invalid"))
-);
-
-// ----- 6. Footer year -----
+// ----- 5. Footer year -----
 document.getElementById("year").textContent = new Date().getFullYear();

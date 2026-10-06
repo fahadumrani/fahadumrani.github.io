@@ -45,6 +45,7 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#contributors">Contributors</a></li>
       </ul>
       <div class="nav-actions">
         <button id="hamburger" class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
@@ -93,7 +94,7 @@
               well-rounded software engineer.
             </p>
             <ul class="about-facts">
-              <li><strong>3</strong><span>projects on GitHub</span></li>
+              <li><strong>4</strong><span>projects on GitHub</span></li>
               <li><strong>15+</strong><span>technologies explored</span></li>
               <li><strong>B.Sc.</strong><span>Computer Science (in progress)</span></li>
             </ul>
@@ -150,38 +151,38 @@
         <div class="projects-grid">
 
           <article class="project-card">
-            <img class="project-img" src="assets/project-vibe-trading.svg" alt="Vibe-Trading — AI trading agent console" loading="lazy" />
+            <img class="project-img" src="project-umrani.svg" alt="Umrani — multilingual AI assistant" loading="lazy" />
+            <div class="project-body">
+              <h3>Umrani</h3>
+              <p>A lightweight AI assistant built for natural conversations in Urdu, Roman Urdu and English, with multiple AI models, code tools and file uploads.</p>
+              <div class="project-tags"><span>JavaScript</span><span>AI Assistant</span><span>Multilingual</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img class="project-img" src="project-vibe-trading.svg" alt="Vibe-Trading — AI trading agent console" loading="lazy" />
             <div class="project-body">
               <h3>Vibe-Trading</h3>
               <p>AI-powered personal trading agent with agent, frontend, desktop (Electron), Docker and MCP/API components.</p>
               <div class="project-tags"><span>Python</span><span>AI Agents</span><span>MCP</span></div>
-              <div class="project-links">
-                <a href="https://github.com/fahadumrani/Vibe-Trading" target="_blank" rel="noopener">Source Code ↗</a>
-              </div>
             </div>
           </article>
 
           <article class="project-card">
-            <img class="project-img" src="assets/project-trader-agent.svg" alt="Trader Agent — Jupyter notebook preview" loading="lazy" />
+            <img class="project-img" src="project-trader-agent.svg" alt="Trader Agent — Jupyter notebook preview" loading="lazy" />
             <div class="project-body">
               <h3>Trader Agent</h3>
               <p>Trading and AI experimentation project, hosted as a Jupyter Notebook repository.</p>
               <div class="project-tags"><span>Python</span><span>Jupyter Notebook</span></div>
-              <div class="project-links">
-                <a href="https://github.com/fahadumrani/trader_agent" target="_blank" rel="noopener">Source Code ↗</a>
-              </div>
             </div>
           </article>
 
           <article class="project-card">
-            <img class="project-img" src="assets/project-weathermaster.svg" alt="WeatherMaster — Android weather app preview" loading="lazy" />
+            <img class="project-img" src="project-weathermaster.svg" alt="WeatherMaster — Android weather app preview" loading="lazy" />
             <div class="project-body">
               <h3>WeatherMaster</h3>
               <p>Android weather application that combines multiple weather-data sources in one app.</p>
               <div class="project-tags"><span>Kotlin</span><span>Android</span></div>
-              <div class="project-links">
-                <a href="https://github.com/fahadumrani/WeatherMaster" target="_blank" rel="noopener">Source Code ↗</a>
-              </div>
             </div>
           </article>
 
@@ -224,30 +225,33 @@
 
     <!-- ===== CONTACT ===== -->
     <section id="contact" class="section">
-      <div class="container contact-grid">
-        <div>
-          <h2 class="section-title"><span>05.</span> Contact</h2>
-          <p class="contact-text">
-            I'm open to internships, freelance projects and collaborations.
-            Whether you have an opportunity or just want to talk tech —
-            my inbox is always open!
-          </p>
-          <ul class="contact-list">
-            <li>📍 Pakistan</li>
-            <li>📧 <a href="mailto:umranifahad55@gmail.com">umranifahad55@gmail.com</a></li>
-            <li>🐙 <a href="https://github.com/fahadumrani" target="_blank" rel="noopener">GitHub</a></li>
-          </ul>
-        </div>
-        <form id="contact-form" class="contact-form" novalidate>
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your name" required />
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="you@example.com" required />
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" placeholder="How can I help?" required></textarea>
-          <button type="submit" class="btn btn-primary">Send message</button>
-          <p class="form-status" id="form-status" role="status"></p>
-        </form>
+      <div class="container contact-content">
+        <h2 class="section-title"><span>05.</span> Contact</h2>
+        <p class="contact-text">
+          I'm open to internships, freelance projects and collaborations.
+          Whether you have an opportunity or just want to talk tech —
+          my inbox is always open!
+        </p>
+        <ul class="contact-list">
+          <li>📍 Pakistan</li>
+          <li>📧 <a href="mailto:umranifahad55@gmail.com">umranifahad55@gmail.com</a></li>
+          <li>🐙 <a href="https://github.com/fahadumrani" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== CONTRIBUTORS ===== -->
+    <section id="contributors" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title"><span>06.</span> Contributor</h2>
+        <p class="section-desc">People who have contributed to this portfolio and its projects.</p>
+        <article class="contributor-card">
+          <img src="arsalan-bangulzai.webp" alt="Portrait of Arsalan Bangulzai" class="contributor-photo" loading="lazy" />
+          <div>
+            <h3>Arsalan Bangulzai</h3>
+            <p>Contributor</p>
+          </div>
+        </article>
       </div>
     </section>
   </main>
@@ -259,6 +263,6 @@
 
   <button id="to-top" class="to-top" aria-label="Back to top" hidden>↑</button>
 
-  <script src="js/script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

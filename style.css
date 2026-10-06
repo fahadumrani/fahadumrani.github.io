@@ -460,13 +460,6 @@ a {
   border-radius: 999px;
 }
 
-.project-links {
-  display: flex;
-  gap: 18px;
-  font-size: 0.88rem;
-  font-weight: 600;
-}
-
 /* ===== EXPERIENCE / TIMELINE ===== */
 .timeline {
   position: relative;
@@ -512,11 +505,8 @@ a {
 }
 
 /* ===== CONTACT ===== */
-.contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 56px;
-  align-items: start;
+.contact-content {
+  max-width: 700px;
 }
 
 .contact-text {
@@ -532,57 +522,35 @@ a {
   font-size: 0.95rem;
 }
 
-.contact-form {
-  display: grid;
-  gap: 8px;
+/* ===== CONTRIBUTORS ===== */
+.contributor-card {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  max-width: 520px;
+  padding: 24px;
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 14px;
-  padding: 28px;
   box-shadow: var(--shadow);
 }
 
-.contact-form label {
-  font-size: 0.85rem;
-  font-weight: 600;
-  margin-top: 6px;
+.contributor-photo {
+  width: 104px;
+  height: 104px;
+  object-fit: cover;
+  object-position: center 24%;
+  border-radius: 50%;
+  border: 3px solid color-mix(in srgb, var(--primary) 28%, transparent);
 }
 
-.contact-form input,
-.contact-form textarea {
-  font: inherit;
-  color: var(--text);
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 11px 14px;
-  resize: vertical;
+.contributor-card h3 {
+  margin-bottom: 6px;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
-  outline: 2px solid var(--primary);
-  outline-offset: 1px;
+.contributor-card p {
+  color: var(--text-muted);
 }
-
-.contact-form input.invalid,
-.contact-form textarea.invalid {
-  border-color: #e5484d;
-}
-
-.contact-form .btn {
-  margin-top: 12px;
-  border: none;
-}
-
-.form-status {
-  font-size: 0.88rem;
-  font-weight: 600;
-  min-height: 1.2em;
-}
-
-.form-status.ok { color: #2fa96e; }
-.form-status.err { color: #e5484d; }
 
 /* ===== FOOTER ===== */
 .footer {
@@ -612,8 +580,7 @@ a {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 860px) {
-  .about-grid,
-  .contact-grid {
+  .about-grid {
     grid-template-columns: 1fr;
     gap: 36px;
   }

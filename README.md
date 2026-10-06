@@ -15,18 +15,17 @@ npx serve .        # or: python -m http.server
 ```
 portfolio/
 ├── index.html          # all sections: hero, about, skills, projects, experience, contact
-├── css/style.css       # CSS variables + all styling (light professional theme)
-├── js/script.js        # menu, scroll effects, form validation, back-to-top
-└── assets/
-    └── favicon.svg     # site icon
+├── style.css           # CSS variables + all styling (light professional theme)
+├── script.js           # menu, scroll effects and back-to-top
+├── favicon.svg         # site icon
+└── *.svg / *.webp      # project and contributor images
 ```
 
 ## ✏️ Customization
 
-1. **Colors** — edit the CSS variables at the top of `css/style.css` (`--primary`, `--bg`, etc.).
+1. **Colors** — edit the CSS variables at the top of `style.css` (`--primary`, `--bg`, etc.).
 2. **Text & content** — all copy lives in `index.html`; projects, skills and the timeline are plain markup.
 3. **Photo** — the About section uses the GitHub avatar (`https://github.com/fahadumrani.png`); swap the `src` for a local image if preferred.
-4. **Contact form** — in `js/script.js` (section 6), wire the submit handler to a service like Formspree to receive real messages.
 
 ## ✨ Features
 
@@ -35,5 +34,4 @@ portfolio/
 - 📱 Fully responsive with a hamburger menu, Escape-to-close, and a skip-to-content link
 - 🔝 Back-to-top button
 - 🎬 Scroll-reveal animations (respects `prefers-reduced-motion`)
-- ✅ Contact form with front-end validation
 - 🔍 SEO meta tags, Open Graph and JSON-LD Person schema, custom SVG favicon
