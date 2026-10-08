@@ -15,3 +15,9 @@ Use the following URL for the **About Developer** button inside Umrani AI:
 **https://fahadumrani.devs.li/#about-developer**
 
 That deep link takes users directly to the developer introduction section.
+
+## Contributors
+
+- Arsalan Bangulzai
+- Sultan Zerhi
+- Massab Shahwani
